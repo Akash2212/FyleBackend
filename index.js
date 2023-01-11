@@ -11,7 +11,7 @@ axios.get('https://api.github.com/users/Akash2212')
     app.get('/name',(req,res)=>{
         res.send(r.data.name);
     })
-    app.listen(port,hostname,()=>{
+    app.listen(hostname,()=>{
     console.log("Server is running")
 })
 })
